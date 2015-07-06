@@ -1,0 +1,135 @@
+/* custom CSS styles */
+
+/*
+@font-face
+{
+   font-family: "Aurehand";
+   src: url("AUREHAND.eot");
+   src: url("AUREHAND.eot") format("embedded-opentype"),
+        url("AUREHAND.woff") format("woff"),
+        url("AUREHAND.ttf") format("truetype"),
+        url("AUREHAND.svg") format("svg");
+}
+*/
+@font-face {
+  font-family: 'metro';
+  src: url('css/fonts/metro.eot?izvoei');
+  src: url('css/fonts/metro.eot?#iefixizvoei') format('embedded-opentype'), url('css/fonts/metro.woff?izvoei') format('woff'), url('css/fonts/metro.ttf?izvoei') format('truetype'), url('css/fonts/metro.svg?izvoei#metro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body{
+	/*font-family: "Aurehand";*/
+        font-family: metro, "Segoe UI", "Open Sans", serif;
+}
+
+.texto_footer {
+	font-size: 1.2em;
+	color: #8c8c8c;
+}
+
+header h2{
+	font-size:2.6em;
+	font-style: italic;
+	font-weight: normal;
+	padding-top: .3em;
+}
+/*
+h1, h2, h3, h4, h5, h6 {
+	color:#5a5b5b;
+	font-family: "Aurehand";
+}
+*/
+@media screen and (max-width: 800px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: .625rem 0 .625rem .625rem;
+  }
+}
+h1 {
+  font: 400 2.25rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+h2 {
+  font: 500 1.875rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+h3 {
+  font: 500 1.5rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+h4 {
+  font: 500 1.125rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+h5 {
+  font: 500 0.875rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+h6 {
+  font: 500 0.75rem/1.1 "Segoe UI", "Open Sans", serif;
+}
+
+.side-nav li{
+	font-family: "Aurehand";
+	font-size: 1.0em;
+}
+
+.side-nav li a:not(.button){
+	color:#000 !important;
+	background-color: #e4e8e5;
+}
+
+.side-nav li a:hover:not(.button){
+	background-color: #dcdcdc;
+}
+
+
+.off-canvas-list li a:not(.button){
+	color:white !important;
+}
+
+.off-canvas-list li a:hover:not(.button){
+	background-color:#1d1d1d !important;
+}
+
+
+/* chapter 3 styling challenge */
+article {
+	padding-bottom: 2em;
+}
+
+article .left {
+	padding: 0 1em 1em 0;
+}
+
+article .right {
+	padding: 0 0 1em 1em;
+}
+
+.topspace {
+	padding-top: 1.6em; 
+}
+
+.topspace p {
+	font-size: 0.8em;
+	color: #999;
+	font-style: italic;
+}
+
+.topspace-content {
+	padding-top: 0.8em; 
+}
+
+footer {
+	padding: 2em 0;
+	color: #999;
+	border-top: 1px solid #ccc;
+}
+
+footer p {
+	font-size: 0.8em;
+}
+

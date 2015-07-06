@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cifras | Sistema Integrado de Información Productiva</title>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css"/>
+    <style>
+         
+      .step {
+        display: inline-block;
+        line-height: 1;
+        width: 10%;
+      }      
+      .size-12 { font-size: 12px; }      
+      .size-14 { font-size: 14px; }      
+      .size-16 { font-size: 16px; }      
+      .size-18 { font-size: 18px; }      
+      .size-21 { font-size: 21px; }      
+      .size-24 { font-size: 24px; }      
+      .size-36 { font-size: 36px; }      
+      .size-48 { font-size: 48px; }      
+      .size-60 { font-size: 60px; }      
+      .size-72 { font-size: 72px; }      
+    </style>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="right tab-bar-section">
+        <h1>Cifras</h1>
+      </section>
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon"><span></span></a>
+      </section>
+    </nav>
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>Cifras</label></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(10)">Bolivia</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(1)">Chuquisaca</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(2)">La Paz</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(3)">Cochabamba</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(4)">Oruro</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(5)">Potosí</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(6)">Tarija</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(7)">Santa Cruz</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(8)">Beni</a></li>
+        <li><a class="left-off-canvas-toggle" href="#" onclick="General(9)">Pando</a></li>
+      </ul>
+    </aside>
+    <a class="exit-off-canvas"></a>
+    <header class="row">
+      <div class="large-3 columns medium-only-text-center small-only-text-center">
+        <img src="img/logo.png" alt="Mi logo.">
+      </div>
+      <div class="large-9 columns medium-only-text-center small-only-text-center large-only-text-right">
+          <div id="NombreDepto"></div>
+      </div>
+    </header>
+
+    <div class="row">
+      <article class="medium-9 medium-push-3 columns topspace-content">
+        <!-- PRIMERA FILA !-->
+        <div class="row">
+          <div class="large-7 columns">
+            <div class="panel">
+            <h5>Importaciones</h5>
+            <p>This is a six columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami <i class="step fi-results-demographics size-36"></i></p>
+            </div>
+          </div>
+          <div class="large-5 columns">
+            <div class="panel">
+            <h5>Paises de importación</h5>
+            <p>This is a four columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE LA FILA !-->
+
+         <!-- FILA 2  !-->
+        <div class="row">
+          <div class="large-7 columns">
+            <div class="panel">
+            <h5>Exportaciones</h5>
+            <p>This is a six columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami </p>
+            </div>
+          </div>
+          <div class="large-5 columns">
+            <div class="panel">
+            <h5>Paises de exportación</h5>
+            <p>This is a four columns grid panel with an arbitrary height. Bacon ipsum dolor sit amet salami.</p>
+            </div>
+          </div>
+        </div>
+        <!-- FIN DE LA FILA 2 !-->
+
+        <h2>Características</h2>
+        <p><img src="img/moto1.jpg" class="right">Puede llegar a los 500 km/h.</p>
+
+        <h2>COMEX</h2>
+        <p><img src="img/moto2.jpg" class="left">Fue usado por primera vez .</p> 
+        <p>Cuando la Orden 66 fue.</p>
+
+        <h2>FUNDEMPRESA</h2>
+        <p><img src="img/moto3.jpg" class="right">Para la filmación del episodio VI.</p>
+      </article>
+
+       <aside class="medium-3 medium-pull-9 columns topspace">
+        <div class="medium-12 columns">
+            <div id="imagens"></div>
+      </div>
+          <br>
+          <br>
+          <br>
+          <div id="poblacion"></div>
+          <h2>Enlaces</h2>
+        <ul class="side-nav">
+          <li ><a href="http://udapro.produccion.gob.bo" class="links">UDAPRO </a></li>
+          <li><a href="http://siip.produccion.gob.bo">Sistema Integrado de Información Productiva</a></li>
+          <li><a href="http://localhost/udapro/repSIIP2/atlas.php">Atlas de Potencialidades Productivas de Bolivia</a></li>
+          <li><a href="http://www.produccion.gob.bo">MDPyEP</a></li>
+        </ul>
+      </aside> 
+
+      <aside class="medium-3 medium-pull-9 columns topspace"> 
+      </aside>
+    </div>
+
+    <footer class="row">
+      <div class="large-12 columns text-center texto_footer">
+        <p> Sistema Integraso de Información Productiva 2015</p>
+      </div>
+    </footer>
+    </div> <!-- inner wrap, must go after ALL content -->
+  </div><!-- end offcanvas -->
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+      General(10);
+    </script>
+  </body>
+</html>
